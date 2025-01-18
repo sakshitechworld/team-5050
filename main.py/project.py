@@ -76,6 +76,7 @@ sns.scatterplot(x=data['balance'], y=data['duration'])
 plt.title('Balance vs. Duration')
 plt.show()
 
+print(data.columns)
 
 
 
