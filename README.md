@@ -11,6 +11,15 @@ This project aims to predict whether a bank customer will subscribe to a term de
 - **Imbalanced-learn**: For handling class imbalance using resampling techniques.
 - **F1 Score**: The model achieved an **F1 score of 0.55**, the highest among all models tested.
 
+### **Presentation for BankReach Flow Project**
+https://docs.google.com/presentation/d/1ziLrbxcoIEH_GO4t9kd1REQDeRcdzwhS/edit?usp=sharing&ouid=104123228965815355373&rtpof=true&sd=true
+
+### **Walkthrough of the project**
+https://drive.google.com/file/d/1s9Aby11B554VDEvRYa2u3EwoknA7_1Sg/view?usp=sharing
+
+### **Dashboard**
+https://drive.google.com/file/d/1W5mFNJlHcnUsChicmHWnLE81zSQV2ZBD/view?usp=sharing
+
 ## **Setup Instructions**
 
 To set up and run this project, follow these steps:
