@@ -1,66 +1,49 @@
-###**Bank Term Deposit Prediction - Team_participants_5050**
+## **Overview of the Project**
+This project aims to predict whether a bank customer will subscribe to a term deposit based on demographic, financial, and campaign-related features. The dataset originates from a Portuguese banking institution’s direct marketing campaigns. Accurate predictions can help optimize telemarketing efforts and reduce costs.
 
-**Problem Statement:**
+## **Key Features and Technologies Used**
 
-*This project aims to optimize telephonic marketing campaigns for a Portuguese bank by predicting whether a client will subscribe to a term deposit (y). The dataset includes client details, interaction history, and campaign outcomes, enabling the creation of a predictive classification model.*
+### **Key Features:**
+- Prediction of customer subscription likelihood to term deposits.
+- Insights into the effectiveness of telemarketing campaigns.
+- Identification of high-priority customer segments for targeted outreach.
 
----
-##**Dataset Overview**
+### **Technologies Used:**
+- **Programming:** Python (pandas, seaborn, scikit-learn, matplotlib).
+- **Visualization:** Power BI for interactive dashboards.
+- **Machine Learning Models:** Logistic Regression, Decision Tree, Random Forest, Gradient Boosting.
+- **Tools:** Python libraries (xgboost, lightgbm), Power BI for visualizations.
 
--The datasets used in this project contain client information, interaction history, and campaign outcomes:
--Training Dataset (train.csv): 40,000 rows and 17 columns.
--Test Dataset (test.csv): 5,211 rows and 16 columns (without the target variable).
+## **Clear Setup Instructions**
 
----
-##**Dataset Features:**
+1. **Set Up the Environment:**
+   - Ensure Python is installed on your system.
+   - Install the required dependencies by running:
+     ```bash
+     pip install pandas numpy scikit-learn seaborn matplotlib xgboost lightgbm
+     ```
 
--a) client information
--b) Campaign-Related Features:
--c) Target variables
+2. **Run EDA:**
+   - Execute the script `project.py` to explore the data and visualize key patterns.
+   - Example command:
+     ```bash
+     python project.py
+     ```
 
----
+3. **Preprocess Data:**
+   - Use the `encoding.py` script for encoding features, scaling data, and engineering new features.
+   - Example command:
+     ```bash
+     python encoding.py
+     ```
 
-##**Project Features**
+4. **Train Models:**
+   - Execute the `testing.py` script to train machine learning models and evaluate their performance.
+   - Example command:
+     ```bash
+     python testing.py
+     ```
 
--Data Preprocessing:
--Handle missing values.
--Encode categorical variables.
--Scale numeric data for optimal model performance.
--Machine Learning Models:
--Build predictive models for binary classification of the target variable y.
--Model Evaluation:
--Evaluate models using accuracy, precision, recall, F1-score, and ROC-AUC.
-
-##**Project Structure**
-
--team-5050-main/
--├── README.md             # Project documentation
--├── data/
--│   ├── train.csv         # Training dataset
--│   └── test.csv          # Test dataset
--├── main.py               # Script for data preprocessing and model training
--├── requirements.txt      # Dependencies for the project
--└── LICENSE               # License information
-
----
-
-##**Prerequisites**
--Python 3.8 or later
--Required Python libraries listed in requirements.txt
-
----
-
-##**Setup Instructions**
--git clone [repository_url]
--cd team-5050-main
--python3 -m venv venv
--source venv/bin/activate  # For Windows: venv\Scripts\activate
--pip install -r requirements.txt
--python main.py
-
----
-
-##**Expected Results**
--The predictive model will classify whether a client will subscribe to a term deposit.
--Evaluation metrics such as accuracy, precision, recall, and F1-score will be used to assess the model's performance.
-
+5. **Generate Predictions:**
+   - Use the best-performing model to predict on the test dataset.
+   - Save the output in the format `5050.csv` by extending or modifying the existing scripts.
