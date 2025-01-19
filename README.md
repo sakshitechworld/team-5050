@@ -24,7 +24,8 @@ https://drive.google.com/file/d/1W5mFNJlHcnUsChicmHWnLE81zSQV2ZBD/view?usp=shari
 
 To set up and run this project, follow these steps:
 
-##1. Clone the Repository
+
+1. Clone the Repository
 Clone the project repository to your local machine using the following command:
 ```bash
 git clone <repository-url>
